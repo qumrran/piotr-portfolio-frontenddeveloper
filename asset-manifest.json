@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/piotr-portfolio-frontenddeveloper/static/css/main.a0eabc85.css",
+    "main.js": "/piotr-portfolio-frontenddeveloper/static/js/main.ff07afa0.js",
+    "static/media/heroimage4.jpg": "/piotr-portfolio-frontenddeveloper/static/media/heroimage4.a1ad58b22194b42ccba7.jpg",
+    "static/media/piotr2.jpg": "/piotr-portfolio-frontenddeveloper/static/media/piotr2.6fd07affc85f7c2a5cc4.jpg",
+    "index.html": "/piotr-portfolio-frontenddeveloper/index.html",
+    "main.a0eabc85.css.map": "/piotr-portfolio-frontenddeveloper/static/css/main.a0eabc85.css.map",
+    "main.ff07afa0.js.map": "/piotr-portfolio-frontenddeveloper/static/js/main.ff07afa0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a0eabc85.css",
+    "static/js/main.ff07afa0.js"
+  ]
+}
