@@ -1,5 +1,5 @@
 
-function Hero() {
+function Hero({name}) {
     const scrollToSection = () => {
         const section = document.getElementById("about");
         section.scrollIntoView({ behavior: "smooth" });
@@ -8,7 +8,7 @@ function Hero() {
     return (
         <div className="h-screen flex items-center justify-center bg-custom">
             <div className="flex flex-col items-center">
-                <p className="font-roboto-condensed text-6xl font-medium">HELLO, I AM PIOTR</p>
+                <p className="font-roboto-condensed text-6xl font-medium uppercase ">HELLO, I AM {name}</p>
                 <p className="font-roboto-condensed font-medium mt-2">I am a frontend developer</p>
                 <button
                     onClick={scrollToSection}
