@@ -2,7 +2,7 @@ import React from 'react';
 
 function Projects({ projects }) {
 	return (
-		<section className='py-10 bg-gray-100 font-roboto-condensed'>
+		<section className='py-20 bg-gray-100 font-roboto-condensed'>
 			<h2 className='text-center text-3xl font-bold mb-8 text-gray-600'>
 				MY PROJECTS
 			</h2>
