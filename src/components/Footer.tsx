@@ -1,6 +1,12 @@
-import React from 'react';
 
-function Footer({ contact }) {
+import React from 'react';
+import { Contact } from '../interfaces';
+
+interface FooterProps {
+  contact: Contact[];
+}
+
+const Footer: React.FC<FooterProps> = ({ contact }) => {
   return (
     <footer className="flex flex-col items-center bg-white py-6 mt-10">
       <div className="flex flex-wrap justify-center gap-6 p-4 mb-4">
@@ -36,6 +42,6 @@ function Footer({ contact }) {
       </p>
     </footer>
   );
-}
+};
 
 export default Footer;
