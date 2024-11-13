@@ -4,7 +4,7 @@ const heroSection: HeroSection = {
     name: "PIOTR",
     hello: "HELLO I AM",
     paragraphDescription: "I am a front-end developer",
-    buttonDescription: "SEE MY PORTFOLIO",
+    buttonDescription: "See my portfolio SEE MY PORTFOLIO",
 };
 
 export default heroSection;

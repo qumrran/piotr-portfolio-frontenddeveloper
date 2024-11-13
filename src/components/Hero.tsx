@@ -1,36 +1,39 @@
 import React from 'react';
-import { HeroSection } from '../interfaces'; 
+import { HeroSection } from '../interfaces';
+import useScrollToSection from '../hooks/useScrollToSection';
 
 interface HeroProps {
-  heroSection: HeroSection;  
+	heroSection: HeroSection;
+	onLanguageChange: (lang: 'en' | 'pl' | 'ru') => void;
 }
 
-const Hero: React.FC<HeroProps> = ({ heroSection }) => {
-  const scrollToSection = () => {
-    const section = document.getElementById("about");
-    if (section) {
-      section.scrollIntoView({ behavior: "smooth" });
-    }
-  };
+const Hero: React.FC<HeroProps> = ({ heroSection, onLanguageChange }) => {
+	const scrollToAboutSection = useScrollToSection('about');
 
-  return (
-    <div className="h-screen flex items-center justify-center bg-custom">
-      <div className="flex flex-col items-center">
-        <p className="font-roboto-condensed text-6xl font-medium uppercase">
-          {heroSection.hello} {heroSection.name}
-        </p>
-        <p className="font-roboto-condensed font-medium mt-2">
-          {heroSection.paragraphDescription}
-        </p>
-        <button
-          onClick={scrollToSection}
-          className="font-roboto-condensed text-sm text-white p-2 mt-4 bg-black transition-colors duration-300 hover:bg-gray-700"
-        >
-          {heroSection.buttonDescription}
-        </button>
-      </div>
-    </div>
-  );
+	return (
+		<div className='h-screen flex items-center justify-center bg-custom font-roboto-condensed'>
+			<div className='flex flex-col items-center'>
+				<p className='text-6xl font-medium uppercase text-center'>
+					{heroSection.hello} {heroSection.name}
+				</p>
+				<p className='font-medium mt-3'>{heroSection.paragraphDescription}</p>
+				<div className='flex gap-2 m-8'>
+					<button onClick={() => onLanguageChange('en')} className='heroBtn'>
+						EN
+					</button>
+					<button onClick={() => onLanguageChange('pl')} className='heroBtn'>
+						PL
+					</button>
+					<button onClick={() => onLanguageChange('ru')} className='heroBtn'>
+						RU
+					</button>
+				</div>
+				<button onClick={scrollToAboutSection} className='heroBtn mt-4'>
+					{heroSection.buttonDescription}
+				</button>
+			</div>
+		</div>
+	);
 };
 
 export default Hero;

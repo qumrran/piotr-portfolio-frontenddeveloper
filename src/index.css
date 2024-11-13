@@ -9,3 +9,15 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+.heroBtn {
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  color: white;
+  background-color: black;
+  transition: background-color 0.3s;
+}
+
+.heroBtn:hover {
+  background-color: #4a4a4a; 
+}

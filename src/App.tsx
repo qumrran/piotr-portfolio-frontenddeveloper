@@ -10,15 +10,14 @@ function App() {
   const [language, setLanguage] = useState<'en' | 'pl' | 'ru'>('en');
   const data = getData(language);
 
+
+  const handleLanguageChange = (lang: 'en' | 'pl' | 'ru') => {
+    setLanguage(lang);
+  };
+
   return (
     <div className="App">
-      <div>
-        <button onClick={() => setLanguage('en')}>EN</button>
-        <button onClick={() => setLanguage('pl')}>PL</button>
-        <button onClick={() => setLanguage('ru')}>RU</button>
-      </div>
-
-      <Hero heroSection={data.heroSection} />
+      <Hero heroSection={data.heroSection} onLanguageChange={handleLanguageChange} />
       <About 
           name={data.personalInfo.name}
           description={data.personalInfo.description}

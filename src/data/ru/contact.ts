@@ -6,8 +6,6 @@ import { MdEmail } from "react-icons/md";
 
 
 
-
-
 const contact: Contact[] = [
     {
         id: 1,
@@ -29,7 +27,7 @@ const contact: Contact[] = [
     },
     {
         id: 4,
-        name: "Телефон",
+        name: "Phone",
         url: "tel:+48511132981",
         icon: FaPhoneAlt
     }
