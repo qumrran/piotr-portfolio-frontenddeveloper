@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Contact } from '../interfaces';
 
@@ -10,25 +9,25 @@ const Footer: React.FC<FooterProps> = ({ contact }) => {
   return (
     <footer className="flex flex-col items-center bg-white py-6 mt-10">
       <div className="flex flex-wrap justify-center gap-6 p-4 mb-4">
-        {contact.map((contactItem) => (
-          contactItem.name === "Phone" ? (
-            <div key={contactItem.id} className="flex items-center text-black gap-2">
-              <contactItem.icon className="text-3xl" />
+        {contact.map(({ id, name, url, icon: Icon }) => (
+          name === "Phone" ? (
+            <div key={id} className="flex items-center text-black gap-2">
+              <Icon className="text-3xl" />
               <span className="text-base font-roboto-condensed">
                 +48 511 132 981
               </span>
             </div>
           ) : (
             <a
-              key={contactItem.id}
-              href={contactItem.url}
+              key={id}
+              href={url}
               target="_blank"
               rel="noopener noreferrer"
-              aria-label={contactItem.name}
+              aria-label={name}
               className="flex items-center text-black hover:text-gray-700 transition-colors gap-2"
             >
-              <contactItem.icon className="text-3xl" />
-              {contactItem.name === "Email" && (
+              <Icon className="text-3xl" />
+              {name === "Email" && (
                 <span className="text-base font-roboto-condensed">
                   pocztapiotrobara@gmail.com
                 </span>

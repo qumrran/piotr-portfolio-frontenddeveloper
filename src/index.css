@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
 .bg-custom {
-  background-image: url('./assets/images/heroimage4.jpg');
+  background-image: url('./assets/images/heroimage.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }

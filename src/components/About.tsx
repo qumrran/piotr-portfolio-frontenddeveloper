@@ -1,5 +1,5 @@
 import React from 'react';
-import portfolioImg from './../assets/images/piotr2.jpg';
+import portfolioImg from './../assets/images/piotr.jpg';
 import { PersonalInfo } from '../interfaces';
 
 const About: React.FC<PersonalInfo> = ({ name, greeting, aboutMeHeader, description }) => {

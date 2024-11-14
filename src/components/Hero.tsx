@@ -7,16 +7,16 @@ interface HeroProps {
 	onLanguageChange: (lang: 'en' | 'pl' | 'ru') => void;
 }
 
-const Hero: React.FC<HeroProps> = ({ heroSection, onLanguageChange }) => {
+const Hero: React.FC<HeroProps> = ({ heroSection: { hello, name, paragraphDescription, buttonDescription }, onLanguageChange }) => {
 	const scrollToAboutSection = useScrollToSection('about');
 
 	return (
 		<div className='h-screen flex items-center justify-center bg-custom font-roboto-condensed'>
 			<div className='flex flex-col items-center'>
 				<p className='text-6xl font-medium uppercase text-center'>
-					{heroSection.hello} {heroSection.name}
+					{hello} {name}
 				</p>
-				<p className='font-medium mt-3'>{heroSection.paragraphDescription}</p>
+				<p className='font-medium mt-3'>{paragraphDescription}</p>
 				<div className='flex gap-2 m-8'>
 					<button onClick={() => onLanguageChange('en')} className='heroBtn'>
 						EN
@@ -29,7 +29,7 @@ const Hero: React.FC<HeroProps> = ({ heroSection, onLanguageChange }) => {
 					</button>
 				</div>
 				<button onClick={scrollToAboutSection} className='heroBtn mt-4'>
-					{heroSection.buttonDescription}
+					{buttonDescription}
 				</button>
 			</div>
 		</div>

@@ -20,6 +20,21 @@ export interface Technology {
     icon: IconType;
 }
 
+export interface ProjectsProps {
+    projects: {
+      header: string;
+      items: Project[];
+    };
+  }
+
+  export interface SkillsProps {
+    skillsData: {
+      header: string;
+      technologies: Technology[];
+    };
+  }
+  
+
 export interface Project {
     id: number;
     title: string;
