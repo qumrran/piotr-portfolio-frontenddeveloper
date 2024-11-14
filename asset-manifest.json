@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/piotr-portfolio-frontenddeveloper/static/css/main.a0eabc85.css",
-    "main.js": "/piotr-portfolio-frontenddeveloper/static/js/main.ff07afa0.js",
-    "static/media/heroimage4.jpg": "/piotr-portfolio-frontenddeveloper/static/media/heroimage4.a1ad58b22194b42ccba7.jpg",
-    "static/media/piotr2.jpg": "/piotr-portfolio-frontenddeveloper/static/media/piotr2.6fd07affc85f7c2a5cc4.jpg",
+    "main.css": "/piotr-portfolio-frontenddeveloper/static/css/main.74f04c97.css",
+    "main.js": "/piotr-portfolio-frontenddeveloper/static/js/main.c30b537b.js",
+    "static/media/heroimage.jpg": "/piotr-portfolio-frontenddeveloper/static/media/heroimage.a1ad58b22194b42ccba7.jpg",
+    "static/media/piotr.jpg": "/piotr-portfolio-frontenddeveloper/static/media/piotr.6fd07affc85f7c2a5cc4.jpg",
     "index.html": "/piotr-portfolio-frontenddeveloper/index.html",
-    "main.a0eabc85.css.map": "/piotr-portfolio-frontenddeveloper/static/css/main.a0eabc85.css.map",
-    "main.ff07afa0.js.map": "/piotr-portfolio-frontenddeveloper/static/js/main.ff07afa0.js.map"
+    "main.74f04c97.css.map": "/piotr-portfolio-frontenddeveloper/static/css/main.74f04c97.css.map",
+    "main.c30b537b.js.map": "/piotr-portfolio-frontenddeveloper/static/js/main.c30b537b.js.map"
   },
   "entrypoints": [
-    "static/css/main.a0eabc85.css",
-    "static/js/main.ff07afa0.js"
+    "static/css/main.74f04c97.css",
+    "static/js/main.c30b537b.js"
   ]
 }
