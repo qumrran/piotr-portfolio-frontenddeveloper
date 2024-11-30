@@ -1,16 +1,17 @@
 import { Project } from "../../interfaces";
+import WordrobeCutter from './../../assets/thumbnails/WardrobeCutter.jpg';
 
 const projects: { header: string; items: Project[] } = {
   header: "MY PROJECTS",
   items: [
     {
       id: 1,
-      title: "Reactly",
-      description: "A dynamic app built with React and CSS, showcasing advanced front-end capabilities.",
-      technologies: ["React", "CSS"],
-      imageUrl: "https://via.placeholder.com/400x300?text=Reactly",
-      link: "https://example.com/project1",
-      github: "https://github.com/qumrran"
+      title: "Wardrobe Cutter",
+      description: "Wardrobe Cutter is a web app for woodworkers and hobbyists creating custom furniture. It simplifies calculating cut pieces for wardrobes based on user-provided dimensions and specifications. The app also offers visualization and PDF export for workshop-ready results.",
+      technologies: ["React", "TypeScript", "Tailwind CSS"],
+      imageUrl: WordrobeCutter,
+      link: "https://qumrran.github.io/rozpis-mebli/",
+      github: "https://github.com/qumrran/rozpis-mebli"
     },
     {
       id: 2,

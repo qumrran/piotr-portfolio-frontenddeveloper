@@ -1,17 +1,19 @@
 import { Project } from "../../interfaces";
+import WordrobeCutter from './../../assets/thumbnails/WardrobeCutter.jpg';
 
 const projects: { header: string; items: Project[] } = {
   header: "MOJE PROJEKTY",
   items: [
     {
       id: 1,
-      title: "Reactly",
-      description: "Dynamiczna aplikacja stworzona przy użyciu React i CSS, prezentująca zaawansowane możliwości frontendu.",
-      technologies: ["React", "CSS"],
-      imageUrl: "https://via.placeholder.com/400x300?text=Reactly",
-      link: "https://example.com/project1",
-      github: "https://github.com/qumrran"
+      title: "Rozkrój Szafy",
+      description: "Rozkrój Szafy to aplikacja internetowa dla stolarzy i hobbystów zajmujących się projektowaniem mebli na wymiar. Ułatwia obliczanie formatek szaf na podstawie wprowadzonych wymiarów i specyfikacji. Aplikacja oferuje także wizualizację oraz eksport do PDF, gotowy do użycia w warsztacie.",
+      technologies: ["React", "TypeScript", "Tailwind CSS"],
+      imageUrl: WordrobeCutter,
+      link: "https://qumrran.github.io/rozpis-mebli/",
+      github: "https://github.com/qumrran/rozpis-mebli"
     },
+    
     {
       id: 2,
       title: "NodeForge",

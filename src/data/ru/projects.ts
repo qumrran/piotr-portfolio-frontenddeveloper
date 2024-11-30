@@ -1,16 +1,17 @@
 import { Project } from "../../interfaces";
+import WordrobeCutter from './../../assets/thumbnails/WardrobeCutter.jpg';
 
 const projects: { header: string; items: Project[] } = {
   header: "МОИ ПРОЕКТЫ",
   items: [
     {
       id: 1,
-      title: "Reactly",
-      description: "Динамичное приложение, созданное с использованием React и CSS, демонстрирующее передовые возможности фронтенда.",
-      technologies: ["React", "CSS"],
-      imageUrl: "https://via.placeholder.com/400x300?text=Reactly",
-      link: "https://example.com/project1",
-      github: "https://github.com/qumrran"
+      title: "Распил Шкафа",
+      description: "Распил Шкафа — это веб-приложение для плотников и любителей, занимающихся проектированием мебели на заказ. Оно упрощает расчёт раскроя деталей шкафа на основе введённых размеров и параметров. Приложение также предлагает визуализацию и экспорт в PDF для использования в мастерской.",
+      technologies: ["React", "TypeScript", "Tailwind CSS"],
+      imageUrl: WordrobeCutter,
+      link: "https://qumrran.github.io/rozpis-mebli/",
+      github: "https://github.com/qumrran/rozpis-mebli"
     },
     {
       id: 2,
