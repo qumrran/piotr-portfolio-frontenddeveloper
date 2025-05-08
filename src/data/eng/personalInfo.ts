@@ -1,10 +1,18 @@
-import { PersonalInfo } from "../../interfaces";
+import { PersonalInfo } from '../../interfaces';
 
 const personalInfo: PersonalInfo = {
-  name: "Piotr",
-  greeting: "Hello! I am",
-  aboutMeHeader: "ABOUT ME",
-  description: "I am a front-end developer specializing in building dynamic, responsive web applications using React. With a strong knowledge of JavaScript and modern ES6+ standards, I create efficient, scalable, and user-friendly front-end solutions. I place great emphasis on aesthetics and usability, often utilizing Tailwind CSS and SCSS to streamline the styling process and design components that align with the project vision. My experience in component-based design allows me to build modular, maintainable code. I value attention to detail and strive to ensure that each project combines functionality with polished design, delivering an exceptional user experience."
+	name: 'Piotr',
+	greeting: "Hi! I'm",
+	aboutMeHeader: 'ABOUT ME',
+	description: `As the saying goes — "If you don’t praise yourself, no one else will."
+One beautiful day, I got interested in frontend development — and it stuck with me ever since.
+I wake up at 5 a.m. to enjoy some peace and quiet — just to squeeze in some coding before work. Then, after work, when my family goes to sleep... and that’s how it’s been for the past few years.
+Giving up Netflix and funny cat videos on YouTube started to wear on me a bit, so I decided to venture into deeper waters in search of my dream first job.
+Goal: React Developer — but I’m open to other technologies too.
+Privately, I spend every free day I can in the mountains. I’m passionate about Central Asian countries, art, and Carl Gustav Jung’s transpersonal psychology.
+Feel free to check out my projects!  
+A more official PDF portfolio is available for download below this description.`,
+	button: 'DOWNLOAD CV',
 };
 
 export default personalInfo;

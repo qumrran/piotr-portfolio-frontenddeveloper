@@ -12,6 +12,8 @@ export interface PersonalInfo {
     greeting: string;
     aboutMeHeader: string;
     description: string;
+    button: string;
+   
   }
 
 export interface Technology {
@@ -50,4 +52,9 @@ export interface Contact {
     name: string;
     url: string;
     icon: IconType;
+}
+
+export interface DownloadButtonProps {
+  filePath: string;
+  label: string;
 }

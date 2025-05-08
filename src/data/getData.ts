@@ -17,30 +17,30 @@ import ruSkills from './ru/skills';
 import ruHeroSection from './ru/heroSection';
 
 export const getData = (language: 'en' | 'pl' | 'ru') => {
-  switch (language) {
-    case 'pl':
-      return {
-        contact: plContact,
-        personalInfo: plPersonalInfo,
-        projects: plProjects,
-        skills: plSkills,
-        heroSection: plHeroSection,
-      };
-    case 'ru':
-      return {
-        contact: ruContact,
-        personalInfo: ruPersonalInfo,
-        projects: ruProjects,
-        skills: ruSkills,
-        heroSection: ruHeroSection,
-      };
-    default:
-      return {
-        contact: enContact,
-        personalInfo: enPersonalInfo,
-        projects: enProjects,
-        skills: enSkills,
-        heroSection: enHeroSection,
-      };
-  }
+	switch (language) {
+		case 'pl':
+			return {
+				contact: plContact,
+				personalInfo: plPersonalInfo,
+				projects: plProjects,
+				skills: plSkills,
+				heroSection: plHeroSection,
+			};
+		case 'ru':
+			return {
+				contact: ruContact,
+				personalInfo: ruPersonalInfo,
+				projects: ruProjects,
+				skills: ruSkills,
+				heroSection: ruHeroSection,
+			};
+		default:
+			return {
+				contact: enContact,
+				personalInfo: enPersonalInfo,
+				projects: enProjects,
+				skills: enSkills,
+				heroSection: enHeroSection,
+			};
+	}
 };

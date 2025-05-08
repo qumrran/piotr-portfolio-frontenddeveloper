@@ -1,10 +1,18 @@
-import { PersonalInfo } from "../../interfaces";
+import { PersonalInfo } from '../../interfaces';
 
 const personalInfo: PersonalInfo = {
-  name: "Piotr",
-  greeting: "Cześć! Jestem",
-  aboutMeHeader: "O MNIE",
-  description: "Jestem front-end developerem, specjalizującym się w tworzeniu dynamicznych, responsywnych aplikacji internetowych z wykorzystaniem Reacta. Mam solidną znajomość JavaScriptu oraz nowoczesnych standardów ES6+, co pozwala mi tworzyć wydajne, skalowalne i przyjazne dla użytkownika rozwiązania front-endowe. Kładę duży nacisk na estetykę i użyteczność, często wykorzystując Tailwind CSS i SCSS do usprawnienia procesu stylizacji i projektowania komponentów, które są zgodne z wizją projektu. Moje doświadczenie w projektowaniu komponentów pozwala mi budować modułowy, łatwy do utrzymania kod. Przykładam dużą wagę do szczegółów, zapewniając, że każdy projekt łączy funkcjonalność z dopracowanym designem, oferując doskonałe wrażenia użytkownika."
+	name: 'Piotr',
+	greeting: 'Cześć! Jestem',
+	aboutMeHeader: 'O MNIE',
+	description: `Jak mawia przysłowie — "Jak się sam nie pochwalisz, to nikt cię nie pochwali."
+Pewnego pięknego dnia zainteresowałem się frontendem i tak już zostało do dziś.
+Pobudka o 5 rano, by mieć ciszę i spokój — tylko po to, żeby zdążyć pokodować jeszcze przed pracą. Potem, po pracy, gdy rodzina pójdzie spać... I tak trwa to już od kilku lat.
+Rezygnacja z Netflixa i oglądania śmiesznych kotów na YouTube zaczęła mi coraz bardziej doskwierać, więc postanowiłem wypłynąć na głębsze wody w poszukiwaniu swojej wymarzonej, pierwszej pracy.
+Cel: React Developer, ale nie zamykam się na inne technologie.
+Prywatnie: każdy możliwy wolny dzień spędzam w górach. Interesuję się krajami Azji Środkowej, sztuką oraz psychologią transpersonalną Carla Gustava Junga.
+Zapraszam do obejrzenia moich projektów!
+Bardziej oficjalne PDF-portfolio do pobrania znajduje się poniżej opisu.`,
+	button: 'POBIERZ CV',
 };
 
 export default personalInfo;

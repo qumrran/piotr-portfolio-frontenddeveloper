@@ -1,5 +1,4 @@
 
-import { IconType } from 'react-icons';
 import { Contact } from '../../interfaces';
 import { FaFacebook, FaLinkedin, FaPhoneAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";

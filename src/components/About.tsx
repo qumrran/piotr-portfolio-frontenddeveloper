@@ -1,8 +1,9 @@
 import React from 'react';
 import portfolioImg from './../assets/images/piotr.jpg';
 import { PersonalInfo } from '../interfaces';
+import DownloadButton from './DownloadButton'; 
 
-const About: React.FC<PersonalInfo> = ({ name, greeting, aboutMeHeader, description }) => {
+const About: React.FC<PersonalInfo> = ({ name, greeting, aboutMeHeader, description, button }) => {
   return (
     <div id="about">
       <section className="flex items-center justify-center bg-gray-100 py-10 border-t-8 border-white">
@@ -24,6 +25,8 @@ const About: React.FC<PersonalInfo> = ({ name, greeting, aboutMeHeader, descript
               {aboutMeHeader}
             </h1>
             <p className="text-gray-600">{description}</p>
+
+            <DownloadButton filePath="/CV.pdf" label={button} />
           </div>
         </div>
       </section>
