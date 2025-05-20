@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/piotr-portfolio-frontenddeveloper/static/css/main.f62b498d.css",
-    "main.js": "/piotr-portfolio-frontenddeveloper/static/js/main.19d32066.js",
-    "static/media/heroimage.jpg": "/piotr-portfolio-frontenddeveloper/static/media/heroimage.a1ad58b22194b42ccba7.jpg",
-    "static/media/piotr.jpg": "/piotr-portfolio-frontenddeveloper/static/media/piotr.6fd07affc85f7c2a5cc4.jpg",
-    "static/media/PayToFish.jpg": "/piotr-portfolio-frontenddeveloper/static/media/PayToFish.329c206f3f514e50737a.jpg",
-    "static/media/WardrobeCutter.jpg": "/piotr-portfolio-frontenddeveloper/static/media/WardrobeCutter.21defb9bc91e241d3e9c.jpg",
-    "index.html": "/piotr-portfolio-frontenddeveloper/index.html",
-    "main.f62b498d.css.map": "/piotr-portfolio-frontenddeveloper/static/css/main.f62b498d.css.map",
-    "main.19d32066.js.map": "/piotr-portfolio-frontenddeveloper/static/js/main.19d32066.js.map"
+    "main.css": "/static/css/main.5ac1df46.css",
+    "main.js": "/static/js/main.ecef761f.js",
+    "static/media/heroimage.jpg": "/static/media/heroimage.a1ad58b22194b42ccba7.jpg",
+    "static/media/piotr.jpg": "/static/media/piotr.6fd07affc85f7c2a5cc4.jpg",
+    "static/media/PayToFish.jpg": "/static/media/PayToFish.329c206f3f514e50737a.jpg",
+    "static/media/WardrobeCutter.jpg": "/static/media/WardrobeCutter.21defb9bc91e241d3e9c.jpg",
+    "index.html": "/index.html",
+    "main.5ac1df46.css.map": "/static/css/main.5ac1df46.css.map",
+    "main.ecef761f.js.map": "/static/js/main.ecef761f.js.map"
   },
   "entrypoints": [
-    "static/css/main.f62b498d.css",
-    "static/js/main.19d32066.js"
+    "static/css/main.5ac1df46.css",
+    "static/js/main.ecef761f.js"
   ]
 }
